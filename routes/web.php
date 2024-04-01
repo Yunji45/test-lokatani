@@ -15,7 +15,7 @@ use App\Http\Controllers\UserController;
 |
 */
 
-// Route::get('/', [UserController::class, 'index'])->name('index');
-Route::get('/', function () {
-    return view('page.index');
-})->name('index');
+Route::get('/', [UserController::class, 'index']);
+// Route::get('/', function () {
+//     return view('page.index');
+// })->name('index');
