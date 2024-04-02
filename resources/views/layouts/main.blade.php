@@ -39,6 +39,7 @@
 
                 <!-- Topbar -->
                 @include('layouts.nav')
+                @include('sweetalert::alert')
 
                 <!-- End of Topbar -->
 

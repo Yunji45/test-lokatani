@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('phone')->nullable();
             $table->text('address')->nullable();
-            $table->datetime('delete_at')->nullable();
+            $table->datetime('deleted_at')->nullable();
             $table->timestamps();
         });
     }

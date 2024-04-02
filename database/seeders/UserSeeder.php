@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
                 'email' => $faker->unique()->safeEmail,
                 'phone' => $faker ->phoneNumber,
                 'address' => $faker->address,
-                'delete_at' => $faker->dateTimeBetween('-1 years', 'now')
+                // 'deleted_at' => $faker->dateTimeBetween('-1 years', 'now')
             ]);
         }
     }

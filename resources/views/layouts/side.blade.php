@@ -19,7 +19,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item active">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="{{route('user.index')}}">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables User</span>
                 </a>
